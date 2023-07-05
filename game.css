@@ -1,0 +1,25 @@
+body{
+    font-family: 'Indie Flower';
+}
+.mainArea{
+    text-align: center;
+}
+.cellsArea{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: auto;
+}
+.cell{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    box-shadow:  0 0 0 2px;
+    line-height: 100px;
+    font-size: 6em;
+    cursor: pointer;
+}
+.footer{
+    font-size: 3em;
+}
